@@ -1,7 +1,7 @@
 #-------------------------------
 # General Site Settings
 
-title: Dancing with AI - A Curriculum on Designing Interactive AI Systems
+title: Sound of AI - A Curriculum on Exploring Human and Machine Audition
 logo: logo.png
 email: tbd@mit.edu
 phone: TBD
@@ -13,7 +13,7 @@ menu:
 - {name: open Poseblocks!, link: 'https://mitmedialab.github.io/prg-extension-boilerplate/create/'}
 
 create-base-url: https://mitmedialab.github.io/prg-extension-boilerplate/create/
-projects-base-url: https://dancingwithai.media.mit.edu/projects/
+projects-base-url: https://soundofai.github.io/projects/
 
 #-------------------------------
 # Google Analytics Section

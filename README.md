@@ -1,6 +1,6 @@
-## Dancing with AI Curriculum 
+## Sound of AI Curriculum 
 
-[Live Preview](https://dancingwithai.media.mit.edu)
+[Live Preview](https://soundofai.github.io)
 
 ## Getting Started
 
