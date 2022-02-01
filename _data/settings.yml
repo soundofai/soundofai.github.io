@@ -150,6 +150,7 @@ services:
 # Curriculum
 curriculum-items:
   - title: Hype Day! Audition Overview
+    description: None
     links:
         - name: "Teacher Slides"
           url: "https://docs.google.com/presentation/d/14wcuF-48U-JLsaSoc9L1v_hrf494v33W8ROVFNYBSNg/edit?usp=sharing"
@@ -174,7 +175,9 @@ curriculum-items:
           caption: "Training a Teachable Machine Model"
         - image: "dog.gif"
           caption: "Google <br>Teachable Machine"
+
   - title: Sensation (Ear and Microphones)
+    description: None
     links:
         - name: "Teacher Slides"
           url: "https://docs.google.com/presentation/d/1sGvP9pR571TgyIOdfW889REXZ0wvL8dRuQCTWvMMvgM/edit?usp=sharing"
@@ -188,42 +191,13 @@ curriculum-items:
     projects:
         - image: "circle-drawing.gif"
           url: "circle-drawing.sb3"
-        - image: "hand-spray-paint.gif"
-          url: "hand-spray-paint.sb3"
-        - image: "be-a-pirate.gif"
-          url: "Pirate Face.sb3"
-        - image: "EyelashButterfly.gif"
-          url: "EyelashButterfly.sb3"
         - image: "EmotionJellyfish.gif"
           url: "EmotionJellyfish.sb3"
           gfycat: "GlossyUnripeFireant"
-        - image: "bird-mouth.gif"
-          url: "ChirpBird.sb3"
-        - image: "ChirpBirdForever.gif"
-          url: "ChirpBirdForever.sb3"
-          video: "ChirpBirdForever.webm"
-        - image: "NoTrash.gif"
-          url: "NoTrash.sb3"
-        - image: "FingerPuppetShow.gif"
-          url: "FingerPuppetShow.sb3"
-          gfycat: "sophisticatedqueasycrustacean"
-        - image: "ShoulderFriend.gif"
-          url: "ShoulderFriend.sb3"
-          gfycat: "AdvancedInfatuatedDwarfmongoose"
-        - image: "ThumbsUpSpider.gif"
-          url: "ThumbsUpSpider.sb3"
-          gfycat: "DirtyInbornIrrawaddydolphin"
-        - image: "YayGrr.gif"
-          url: "YayGrr.sb3"
-          gfycat: "DirtyInbornIrrawaddydolphin"
-        - image: "RainbowVolleyball.gif"
-          url: "RainbowVolleyball.sb3"
-          gfycat: "yellowishrashatlanticblackgoby"
-        - image: "FingerFoodNinja.gif"
-          url: "FingerFoodNinja.sb3"
-          gfycat: "SlushySophisticatedAlbatross"
+
 
   - title: Perception (Brain and Computer)
+    description: None
     links:
         - name: "Teacher Slides"
           url: "https://docs.google.com/presentation/d/1fTjIZ51WpfjdJ0Cd2okxa48X7ButRY_uq53C8Aq5VH4/edit?usp=sharing"
@@ -236,20 +210,10 @@ curriculum-items:
       - image: "CatcherModel.gif"
         url: "CatcherModel.sb3"
         gfycat: "UnselfishMiserableCoelacanth"
-      - image: "SnakeGame.gif"
-        url: "SnakeGame.sb3"
-        gfycat: "ShorttermFriendlyFairybluebird"
-      - image: "shydog.gif"
-        url: "NewShyDog.sb3"
-      - image: "bunnyears.gif"
-        url: "bunnyears.sb3"
-      - image: "nocorona.gif"
-        url: "nocorona.sb3"
-      - image: "posturechecker.gif"
-        url: "posturechecker.sb3"
 
 
   - title: Human-AI Collaboration
+    description: None
     links:
         - name: "Teacher Slides"
           url: "https://docs.google.com/presentation/d/1RMBkWa80dO1q1Q8iTjUoMuMzSTJQrihJH_45PGvaFZA/edit?usp=sharing"
