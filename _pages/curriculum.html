@@ -35,15 +35,15 @@ Daily Materials:
     <div class="row">
       <div class="col-lg-10 mx-auto">
         <h3 class="section-title">Module {{forloop.index}}: {{item.title}}</h3>
+        {% if item.description %}
+        <p class="font-tertiary paragraph-lg text-center">{{item.description}}</p>
+        {% endif %}
         <ul class="font-secondary paragraph-lg text-center" style="list-style-type: circle;">
           {% for link-item in item.links %}
           <div class="btn btn-primary font-tertiary btn-sm mb-4"><a href="{{link-item.url}}">{{link-item.name}}</a></div>
           {% endfor %}
           {% if item.resource_links %}
           <div class="mb-4"></div>
-          {% endif %}
-          {% if item.description %}
-          <p class="font-secondary paragraph-lg text-center">{{item.description}}</p>
           {% endif %}
           {% for link-item in item.resource_links %}
           <div class="btn btn-primary-resource font-tertiary btn-xs mb-4"><a href="{{link-item.url}}">{{link-item.name}}</a></div>

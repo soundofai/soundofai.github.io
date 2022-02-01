@@ -150,7 +150,7 @@ services:
 # Curriculum
 curriculum-items:
   - title: Hype Day! Audition Overview
-    description: None
+    description: Students begin to understand how we use audition in everyday life, and are introduced to the challenges of audition for humans and machines.
     links:
         - name: "Teacher Slides"
           url: "https://docs.google.com/presentation/d/14wcuF-48U-JLsaSoc9L1v_hrf494v33W8ROVFNYBSNg/edit?usp=sharing"
@@ -162,6 +162,7 @@ curriculum-items:
           url: "http://movement-charades.glitch.me/"
 
   - title: Signals (Pressure Waves)
+    description: Students learn about the properties of sound waves and how they impact the music we hear. They focus on the relationship between amplitude and volume, frequency and pitch, and higher harmonics and timbre.
     links:
         - name: "Teacher Slides"
           url: "https://docs.google.com/presentation/d/1yUOYuGJSXAIsc-XmoPkpdkpiAML69wmQTaFvT8nV8h8/edit?usp=sharing"
@@ -177,7 +178,7 @@ curriculum-items:
           caption: "Google <br>Teachable Machine"
 
   - title: Sensation (Ear and Microphones)
-    description: None
+    description: Students learn about the mechanics of audition in both humans and machines, including the anatomy of the human ear and the hardware design of microphones.
     links:
         - name: "Teacher Slides"
           url: "https://docs.google.com/presentation/d/1sGvP9pR571TgyIOdfW889REXZ0wvL8dRuQCTWvMMvgM/edit?usp=sharing"
@@ -197,7 +198,7 @@ curriculum-items:
 
 
   - title: Perception (Brain and Computer)
-    description: None
+    description: Students focus on the ways in which the human brain processes sound, and how computers use different data representations to understand the sounds they hear.
     links:
         - name: "Teacher Slides"
           url: "https://docs.google.com/presentation/d/1fTjIZ51WpfjdJ0Cd2okxa48X7ButRY_uq53C8Aq5VH4/edit?usp=sharing"
@@ -213,7 +214,7 @@ curriculum-items:
 
 
   - title: Human-AI Collaboration
-    description: None
+    description: Students gain confidence and understanding through a CAPstone project in which they design a human-AI collaborative music generation program.
     links:
         - name: "Teacher Slides"
           url: "https://docs.google.com/presentation/d/1RMBkWa80dO1q1Q8iTjUoMuMzSTJQrihJH_45PGvaFZA/edit?usp=sharing"
