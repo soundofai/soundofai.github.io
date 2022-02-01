@@ -10,7 +10,7 @@ address: TBD
 menu:
 - {name: Curriculum, link: '/curriculum'}
 - {name: About, link: '/about'}
-- {name: open Poseblocks!, link: 'https://mitmedialab.github.io/prg-extension-boilerplate/create/'}
+- {name: open Sound of AI!, link: 'https://mitmedialab.github.io/prg-extension-boilerplate/create/'}
 
 create-base-url: https://mitmedialab.github.io/prg-extension-boilerplate/create/
 projects-base-url: https://soundofai.github.io/projects/
@@ -50,7 +50,7 @@ social:
 
 # About Section
 blurb:
-  A middle school project-based curriculum about making interactive, movement-focused AI systems.
+  A middle school project-based curriculum about making interactive music generation AI systems.
 
 #  Physical movement is one of the most engaging ways to interact with AI systems, but it’s rare today to see motion integrated with K-12 AI curricula. Beyond that, many middle schoolers have passionate interests in dance, art, physical movement in sports, and video games that involve physical motion (Beat Saber, Just Dance) which aren’t easy to build on in the typical creative learning environments found in classrooms. There is an exciting opportunity to use body movement as an entryway to teaching interesting, less-explored concepts in AI, particularly through active learning by having students design interactions with AI, explore different representations of data, and train image- and pose-recognition models.
 
@@ -247,49 +247,6 @@ all-projects:
   - image: "EmotionJellyfish.gif"
     url: "EmotionJellyfish.sb3"
     gfycat: "GlossyUnripeFireant"
-  - image: "bird-mouth.gif"
-    url: "YummyFood.sb3"
-  - image: "YummyFood.gif"
-    url: "ChirpBirdForever.sb3"
-    video: "ChirpBirdForever.webm"
-  - image: "EyelashButterfly.gif"
-    url: "EyelashButterfly.sb3"
-  - image: "NoTrash.gif"
-    url: "NoTrash.sb3"
-    gfycat: "rawdampcob"
-  - image: "FingerPuppetShow.gif"
-    url: "FingerPuppetShow.sb3"
-    gfycat: "sophisticatedqueasycrustacean"
-  - image: "WhichBin.gif"
-    url: "WhichBin.sb3"
-    gfycat: "spotlesspleasantburro"
-  - image: "CatcherModel.gif"
-    url: "CatcherModel.sb3"
-    gfycat: "UnselfishMiserableCoelacanth"
-  - image: "SnakeGame.gif"
-    url: "SnakeGame.sb3"
-    gfycat: "ShorttermFriendlyFairybluebird"
-  - image: "ShoulderFriend.gif"
-    url: "ShoulderFriend.sb3"
-    gfycat: "AdvancedInfatuatedDwarfmongoose"
-  - image: "MyMask.gif"
-    url: "MyMask.sb3"
-    gfycat: "DirtyInbornIrrawaddydolphin"
-  - image: "YayGrr.gif"
-    url: "YayGrr.sb3"
-    gfycat: "DirtyInbornIrrawaddydolphin"
-  - image: "RainbowVolleyball.gif"
-    url: "RainbowVolleyball.sb3"
-    gfycat: "yellowishrashatlanticblackgoby"
-  - image: "bunnyears.gif"
-    url: "bunnyears.sb3"
-  - image: "nocorona.gif"
-    url: "nocorona.sb3"
-  - image: "posturechecker.gif"
-    url: "posturechecker.sb3"
-  - image: "FingerFoodNinja.gif"
-    url: "FingerFoodNinja.sb3"
-    gfycat: "SlushySophisticatedAlbatross"
 
 portfolio-home-items:
   - image : "assets/images/dancing-with-ai/draw-yellow-circles.png"
@@ -298,10 +255,6 @@ portfolio-home-items:
     url: "#"
   - image : "assets/images/dancing-with-ai/emotion-face.png"
     url: "#"
-#
-#  - image : "assets/images/dancing-with-ai/spray-paint-face.png"
-#    url: "#"
-
 
 # Portfolio Page
 portfolio-label:
