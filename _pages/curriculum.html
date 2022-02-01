@@ -30,21 +30,11 @@ Daily Materials:
         <img src="{{ site.baseurl }}/assets/images/dancing-with-ai/curriculum-overview.png" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-10 mx-auto text-center">
-        <h3 class="section-title">Course-Wide Materials</h3>
-        <ul class="font-secondary paragraph-lg" style="list-style-type: circle;">
-          {% for item in site.data.settings.course-wide-materials %}
-          <div class="btn btn-primary font-tertiary btn-sm mb-4"><a href="{{item.url}}">{{item.name}}</a></div>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
 
     {% for item in site.data.settings.curriculum-items %}
     <div class="row">
       <div class="col-lg-10 mx-auto">
-        <h3 class="section-title">Day {{forloop.index}}: {{item.title}}</h3>
+        <h3 class="section-title">Module {{forloop.index}}: {{item.title}}</h3>
         <ul class="font-secondary paragraph-lg text-center" style="list-style-type: circle;">
           {% for link-item in item.links %}
           <div class="btn btn-primary font-tertiary btn-sm mb-4"><a href="{{link-item.url}}">{{link-item.name}}</a></div>

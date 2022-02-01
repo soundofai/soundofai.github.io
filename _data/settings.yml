@@ -149,7 +149,7 @@ services:
 
 # Curriculum
 curriculum-items:
-  - title: Hype Day! Intro to AI
+  - title: Hype Day! Audition Overview
     links:
         - name: "Teacher Slides"
           url: "https://docs.google.com/presentation/d/14wcuF-48U-JLsaSoc9L1v_hrf494v33W8ROVFNYBSNg/edit?usp=sharing"
@@ -160,7 +160,7 @@ curriculum-items:
         - name: "Charades (Online Generator)"
           url: "http://movement-charades.glitch.me/"
 
-  - title: Training Image + Pose Models
+  - title: Signals (Pressure Waves)
     links:
         - name: "Teacher Slides"
           url: "https://docs.google.com/presentation/d/1yUOYuGJSXAIsc-XmoPkpdkpiAML69wmQTaFvT8nV8h8/edit?usp=sharing"
@@ -174,7 +174,7 @@ curriculum-items:
           caption: "Training a Teachable Machine Model"
         - image: "dog.gif"
           caption: "Google <br>Teachable Machine"
-  - title: Posenet and Facial Expressions
+  - title: Sensation (Ear and Microphones)
     links:
         - name: "Teacher Slides"
           url: "https://docs.google.com/presentation/d/1sGvP9pR571TgyIOdfW889REXZ0wvL8dRuQCTWvMMvgM/edit?usp=sharing"
@@ -223,7 +223,7 @@ curriculum-items:
           url: "FingerFoodNinja.sb3"
           gfycat: "SlushySophisticatedAlbatross"
 
-  - title: Making Interactive AI Systems
+  - title: Perception (Brain and Computer)
     links:
         - name: "Teacher Slides"
           url: "https://docs.google.com/presentation/d/1fTjIZ51WpfjdJ0Cd2okxa48X7ButRY_uq53C8Aq5VH4/edit?usp=sharing"
@@ -249,7 +249,7 @@ curriculum-items:
         url: "posturechecker.sb3"
 
 
-  - title: Capstone Project Bazaar!
+  - title: Human-AI Collaboration
     links:
         - name: "Teacher Slides"
           url: "https://docs.google.com/presentation/d/1RMBkWa80dO1q1Q8iTjUoMuMzSTJQrihJH_45PGvaFZA/edit?usp=sharing"
