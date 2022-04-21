@@ -10,9 +10,9 @@ address: TBD
 menu:
 - {name: Curriculum, link: '/curriculum'}
 - {name: About, link: '/about'}
-- {name: open Sound of AI!, link: 'https://mitmedialab.github.io/prg-extension-boilerplate/create/'}
+- {name: open Sound of AI!, link: 'https://mitmedialab.github.io/prg-extension-boilerplate/machineaudition'}
 
-create-base-url: https://mitmedialab.github.io/prg-extension-boilerplate/create/
+create-base-url: https://mitmedialab.github.io/prg-extension-boilerplate/machineaudition
 projects-base-url: https://soundofai.github.io/projects/
 
 #-------------------------------
@@ -149,28 +149,30 @@ services:
 
 # Curriculum
 curriculum-items:
-  - title: Hype Day! Audition Overview
+  - title: Audition Overview
     description: Students begin to understand how we use audition in everyday life, and are introduced to the challenges of audition for humans and machines.
     links:
         - name: "Teacher Slides"
-          url: "https://docs.google.com/presentation/d/14wcuF-48U-JLsaSoc9L1v_hrf494v33W8ROVFNYBSNg/edit?usp=sharing"
-        - name: "Teacher Script"
-          url: "https://docs.google.com/document/d/1le5D3fjsKBPdXnUz2PdTzvUFBKmXhp5bOD2tUkggyiM/edit"
-        - name: "Charades (Printable Cards)"
-          url: "https://docs.google.com/document/d/1Y9Z44-5NDcS5cumYfeTEAw9xtL2DX0D99-r_h9GBZPY/edit"
-        - name: "Charades (Online Generator)"
-          url: "http://movement-charades.glitch.me/"
+          url: "https://docs.google.com/presentation/d/1tOL-PYbXQ8PuaN7Vnrx8nyNYDu-ZFhjYuk9K7eoHioQ/edit?usp=sharing"
 
   - title: Signals (Pressure Waves)
     description: Students learn about the properties of sound waves and how they impact the music we hear. They focus on the relationship between amplitude and volume, frequency and pitch, and higher harmonics and timbre.
     links:
         - name: "Teacher Slides"
-          url: "https://docs.google.com/presentation/d/1yUOYuGJSXAIsc-XmoPkpdkpiAML69wmQTaFvT8nV8h8/edit?usp=sharing"
-        - name: "Teacher Script"
-          url: "https://docs.google.com/document/d/14FzjNUhx6TqavIkkkcACtDI1-W9B85F5h3fq_S9AYfw/edit?usp=sharing"
+          url: "https://docs.google.com/presentation/d/1rrmhsIJFlbHt89D5iM9nZ-OBn6bBj_bzMhyKazZIRqU/edit?usp=sharing"
+
     resource_links:
-      - name: "Teachable Machine"
-        url: "https://teachablemachine.withgoogle.com/"
+      - name: "Activity: Know Your Dynamics"
+        url: "https://mitmedialab.github.io/prg-extension-boilerplate/machineaudition/?project=https://soundofai.github.io/projects/M2.L2%20-%20Know%20Your%20Dynamics.sb3"
+      - name: "Activity: Making Melodies"
+        url: "https://mitmedialab.github.io/prg-extension-boilerplate/machineaudition/?project=https://soundofai.github.io/projects/M2.L3%20-%20Making%20Melodies.sb3"
+      - name: "Activity: Find Your Voice"
+        url: "https://mitmedialab.github.io/prg-extension-boilerplate/machineaudition/?project=https://soundofai.github.io/projects/M2.L3%20-%20Find%20your%20Voice.sb3"
+      - name: "Activity: What's Your Timbre?"
+        url: "https://mitmedialab.github.io/prg-extension-boilerplate/machineaudition/?project=https://soundofai.github.io/projects/M2.L4%20-%20Whats%20your%20Timbre.sb3"
+      - name: "Activity: More Bars, More To See"
+        url: "https://mitmedialab.github.io/prg-extension-boilerplate/machineaudition/?project=https://soundofai.github.io/projects/M2.L4%20-%20More%20Bars,%20More%20to%20See.sb3"
+
     images:
         - image: "cat-laptop-train.gif"
           caption: "Training a Teachable Machine Model"
@@ -179,48 +181,14 @@ curriculum-items:
 
   - title: Sensation (Ear and Microphones)
     description: Students learn about the mechanics of audition in both humans and machines, including the anatomy of the human ear and the hardware design of microphones.
-    links:
-        - name: "Teacher Slides"
-          url: "https://docs.google.com/presentation/d/1sGvP9pR571TgyIOdfW889REXZ0wvL8dRuQCTWvMMvgM/edit?usp=sharing"
-        - name: "Teacher Script"
-          url: "https://docs.google.com/document/d/1oWskcucRLKt2ujWd7Ei7vleu4n-S0Q54o9GXHw6Qqq8/edit?usp=sharing"
-    resource_links:
-        - name: "Coding: Introduction Tutorial"
-          url: "https://mitmedialab.github.io/prg-extension-boilerplate/create/?tutorial=getStarted"
-        - name: "Coding: Imagine a World Tutorial"
-          url: "https://mitmedialab.github.io/prg-extension-boilerplate/create/?tutorial=imagine"
-    projects:
-        - image: "circle-drawing.gif"
-          url: "circle-drawing.sb3"
-        - image: "EmotionJellyfish.gif"
-          url: "EmotionJellyfish.sb3"
-          gfycat: "GlossyUnripeFireant"
 
 
   - title: Perception (Brain and Computer)
     description: Students focus on the ways in which the human brain processes sound, and how computers use different data representations to understand the sounds they hear.
-    links:
-        - name: "Teacher Slides"
-          url: "https://docs.google.com/presentation/d/1fTjIZ51WpfjdJ0Cd2okxa48X7ButRY_uq53C8Aq5VH4/edit?usp=sharing"
-        - name: "Teacher Script"
-          url: "https://docs.google.com/document/d/1M3D2MtPikfYSaIu6GU8KYtcfJQW4nI_T1HViD4IM9u8/edit?usp=sharing"
-    projects:
-      - image: "WhichBin.gif"
-        url: "WhichBin.sb3"
-        gfycat: "spotlesspleasantburro"
-      - image: "CatcherModel.gif"
-        url: "CatcherModel.sb3"
-        gfycat: "UnselfishMiserableCoelacanth"
 
 
   - title: Human-AI Collaboration
     description: Students gain confidence and understanding through a CAPstone project in which they design a human-AI collaborative music generation program.
-    links:
-        - name: "Teacher Slides"
-          url: "https://docs.google.com/presentation/d/1RMBkWa80dO1q1Q8iTjUoMuMzSTJQrihJH_45PGvaFZA/edit?usp=sharing"
-        - name: "Teacher Script"
-          url: "https://docs.google.com/document/d/1QzuINyJABgQNbf1tW6jCv4V0hRbynO-nJ6o_43Wt9do/edit?usp=sharing"
-
 
 course-wide-materials:
   - name: "Student Journal"
@@ -237,11 +205,11 @@ course-wide-materials:
 # TODO: maybe just collect these from curriculum days? or feature just a few :D
 all-projects:
   - image: "shydog.gif"
-    url: "NewShyDog.sb3"
+    url: "projects/M2.L2 - Know Your Dynamics.sb3"
   - image: "circle-drawing.gif"
-    url: "circle-drawing.sb3"
+    url: "projects/M2.L3 - Find your Voice.sb3"
   - image: "hand-spray-paint.gif"
-    url: "hand-spray-paint.sb3"
+    url: "projects/M2.L3 - Making Melodies.sb3"
   - image: "be-a-pirate.gif"
     url: "Pirate Face.sb3"
   - image: "EmotionJellyfish.gif"
